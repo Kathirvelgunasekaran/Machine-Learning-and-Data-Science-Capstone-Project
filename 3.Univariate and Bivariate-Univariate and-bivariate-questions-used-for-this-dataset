@@ -1,0 +1,16 @@
+### Explanation:
+1. **Data Preprocessing**:
+   - Removed currency symbols and commas from the price columns and converted them into floats.
+   - The number of ratings was also cleaned (commas removed) and converted into integers, filling missing values with `0`.
+   - Ratings were converted to floats for consistency.
+
+2. **Univariate Analysis**:
+   - Visualized the distribution of ratings using a histogram.
+   - Visualized the distribution of discount prices using a histogram.
+   - Visualized the distribution of actual prices using a histogram.
+
+3. **Bivariate Analysis**:
+   - Created scatter plots to analyze the relationships between:
+     - Number of ratings and the product's average rating.
+     - Actual price and discount price.
+     - Discount price and product ratings.
